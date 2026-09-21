@@ -26,18 +26,18 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  background: rgba(255, 235, 59, 0.15);
+  background: rgba(135, 206, 235, 0.15); /* Fondo celeste con transparencia */
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 235, 59, 0.4);
+  border: 1px solid rgba(135, 206, 235, 0.5); /* Borde celeste */
   padding: 30px;
   border-radius: 20px;
   text-align: center;
   max-width: 320px;
-  box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+  box-shadow: 0 0 25px rgba(135, 206, 250, 0.6); /* Brillo celeste */
 }
 
 .card h2 {
-  color: #ffee55;
+  color: #87ceeb; /* Azul celeste */
   margin-bottom: 10px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .card button {
-  background: #ffd700;
+  background: #87ceeb; /* Botón celeste */
   border: none;
   padding: 10px 20px;
   border-radius: 25px;
@@ -60,5 +60,5 @@ body {
 
 .card button:hover {
   transform: scale(1.05);
-  background: #fff;
+  background: #e0f7fa;
 }
